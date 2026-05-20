@@ -1,6 +1,6 @@
 # Ascend Web
 
-Landing page + interactive demo for [Ascend](https://github.com/YOUR_USERNAME/ascend), the AI cognitive partner that doesn't shame you for missing tasks.
+Landing page + interactive demo, the AI cognitive partner that doesn't shame you for missing tasks.
 
 ## Tech
 
@@ -17,6 +17,7 @@ Landing page + interactive demo for [Ascend](https://github.com/YOUR_USERNAME/as
 - **`/demo`** — Standalone interactive phone demo (full-screen, fully playable)
 
 The demo simulates the real app:
+
 1. Pick a life area (9 to choose from)
 2. Describe your goal in your own words
 3. Answer 5 scripted AI questions
@@ -43,7 +44,7 @@ Open [http://localhost:3000](http://localhost:3000).
 Set `repoName` to match your GitHub repo:
 
 ```js
-const repoName = 'your-repo-name'; // e.g. 'ascend-web'
+const repoName = "your-repo-name"; // e.g. 'ascend-web'
 ```
 
 If hosting at a custom domain or `username.github.io` (root), set `repoName = ''`.
@@ -53,7 +54,7 @@ If hosting at a custom domain or `username.github.io` (root), set `repoName = ''
 In `src/components/landing/WaitlistSection.tsx`, replace:
 
 ```ts
-const FORMSPREE_URL = 'https://formspree.io/f/YOUR_FORM_ID';
+const FORMSPREE_URL = "https://formspree.io/f/YOUR_FORM_ID";
 ```
 
 With your actual endpoint.
@@ -67,6 +68,7 @@ In `src/components/landing/Footer.tsx`, replace `YOUR_USERNAME`.
 The `.github/workflows/deploy.yml` workflow does this automatically on push to `main`.
 
 **One-time setup on GitHub:**
+
 1. Push this repo to GitHub
 2. Go to **Settings → Pages**
 3. Under **Build and deployment**, set **Source** to **GitHub Actions**
